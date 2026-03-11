@@ -997,7 +997,7 @@
         </p>
       </div>
 
-      <form id="inquiryForm">
+      <form id="inquiryForm" action="https://formspree.io/f/mzdjelky" method="POST">
         <div class="form-group">
           <label for="firstName">First Name</label>
           <input type="text" id="firstName" name="firstName" placeholder="John" required />
@@ -1040,44 +1040,7 @@
     </p>
   </footer>
 
-  <script>
-    document.getElementById('inquiryForm').addEventListener('submit', async function(e) {
-      e.preventDefault();
-      const form = this;
-      const submitBtn = form.querySelector('button[type="submit"]');
-      submitBtn.textContent = 'Sending…';
-      submitBtn.disabled = true;
-
-      const data = {
-        firstName: document.getElementById('firstName').value,
-        lastName:  document.getElementById('lastName').value,
-        email:     document.getElementById('email').value,
-        phone:     document.getElementById('phone').value,
-        notes:     document.getElementById('notes').value
-      };
-
-      try {
-        const response = await fetch('https://formspree.io/f/mzdjelky', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-          body: JSON.stringify(data)
-        });
-
-        if (response.ok) {
-          form.style.display = 'none';
-          document.getElementById('successMsg').style.display = 'block';
-        } else {
-          submitBtn.textContent = 'Submit Inquiry';
-          submitBtn.disabled = false;
-          alert('Something went wrong. Please email us directly at info@satscap.com');
-        }
-      } catch (err) {
-        submitBtn.textContent = 'Submit Inquiry';
-        submitBtn.disabled = false;
-        alert('Something went wrong. Please email us directly at info@satscap.com');
-      }
-    });
-  </script>
+  <!-- Form submits natively to Formspree with CAPTCHA -->
 
 
 
