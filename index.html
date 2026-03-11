@@ -651,16 +651,24 @@
       /* Hide nav CTA on mobile to prevent overlap */
       .nav-cta { display: none; }
 
-      /* Fix headline overflow */
+      /* Keep REQUEST INFO on one line */
+      .hero-cta {
+        font-size: clamp(11px, 3.5vw, 16px);
+        letter-spacing: 0.12em;
+        padding: 14px 28px;
+        white-space: nowrap;
+      }
+
+      /* Fix headline — allow wrapping on mobile, centered */
       .thesis-header h2 {
         white-space: normal;
-        font-size: clamp(14px, 5vw, 24px);
+        font-size: clamp(14px, 5.5vw, 24px);
         text-align: center;
         word-break: break-word;
       }
 
       /* Fix hero text overflow */
-      .hero-sub, .hero-badges, .hero-cta {
+      .hero-sub, .hero-badges {
         font-size: clamp(12px, 3.5vw, 18px);
         white-space: normal;
         text-align: center;
