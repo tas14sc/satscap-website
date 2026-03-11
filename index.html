@@ -659,13 +659,18 @@
         white-space: nowrap;
       }
 
-      /* Fix headline — allow wrapping on mobile, centered */
+      /* Fix headline — wrap at natural points, centered */
       .thesis-header h2 {
         white-space: normal;
-        font-size: clamp(14px, 5.5vw, 24px);
+        font-size: clamp(16px, 5.5vw, 26px);
         text-align: center;
-        word-break: break-word;
       }
+      .thesis-header h2 .line1,
+      .thesis-header h2 .line2 {
+        display: block;
+        text-align: center;
+      }
+      .mobile-br { display: inline; }
 
       /* Fix hero text overflow */
       .hero-sub, .hero-badges {
@@ -692,6 +697,9 @@
       footer p { font-size: 11px; }
     }
 
+
+    /* Mobile headline breaks hidden on desktop */
+    .mobile-br { display: none; }
 
     /* ── THESIS ── */
     .thesis-header {
@@ -990,7 +998,10 @@
 
       <!-- Thesis Block -->
       <div class="thesis-header">
-        <h2>Crypto visionaries built the base layer<br/>AI Agents are catalyzing the viral moment</h2>
+        <h2>
+          <span class="line1">Crypto visionaries<br class="mobile-br"/> built the base layer</span><br/>
+          <span class="line2">AI Agents are catalyzing<br class="mobile-br"/> the viral moment</span>
+        </h2>
       </div>
 
       <div class="thesis-passage-block">
