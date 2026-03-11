@@ -647,6 +647,41 @@
       .about-grid { grid-template-columns: 1fr; gap: 40px; }
       form { grid-template-columns: 1fr; }
       .form-group.full { grid-column: 1; }
+
+      /* Hide nav CTA on mobile to prevent overlap */
+      .nav-cta { display: none; }
+
+      /* Fix headline overflow */
+      .thesis-header h2 {
+        white-space: normal;
+        font-size: clamp(14px, 5vw, 24px);
+        text-align: center;
+        word-break: break-word;
+      }
+
+      /* Fix hero text overflow */
+      .hero-sub, .hero-badges, .hero-cta {
+        font-size: clamp(12px, 3.5vw, 18px);
+        white-space: normal;
+        text-align: center;
+      }
+
+      /* Fix any nowrap elements */
+      * { max-width: 100%; box-sizing: border-box; }
+
+      /* Prevent horizontal scroll */
+      body { overflow-x: hidden; }
+
+      /* Scale down thesis passage close */
+      .thesis-passage-close {
+        font-size: clamp(13px, 4vw, 20px);
+      }
+
+      /* Fix pillar cards */
+      .thesis-trio { grid-template-columns: 1fr; }
+
+      /* Fix footer text */
+      footer p { font-size: 11px; }
     }
 
 
