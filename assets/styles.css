@@ -51,8 +51,8 @@ nav.scrolled .logo-nav { height: 28px; }
 
 /* THESIS dark band */
 .thesis { background: var(--ink); color: #EAE3D3; padding: 120px 0; }
-.thesis .eyebrow { color: var(--gold); }
-.thesis .passage { max-width: 60ch; margin-left: auto; margin-right: auto; font-size: clamp(18px, 2.05vw, 24px); line-height: 1.7; color: #C9D0D9; margin-top: 18px; }
+.thesis .eyebrow { color: var(--gold); font-size: clamp(14px, 1.5vw, 17px); letter-spacing: 0.2em; margin: 0 0 32px; }
+.thesis .passage { max-width: 64ch; margin-left: auto; margin-right: auto; font-size: clamp(17px, 1.9vw, 21px); line-height: 1.75; color: #C9D0D9; margin-top: 18px; }
 .thesis .passage + .passage { margin-top: 22px; }
 .thesis .rule { width: 56px; height: 2px; background: var(--gold); margin: 48px 0; }
 .thesis .statement { font-family: 'Lora', serif; font-style: italic; font-weight: 600; font-size: clamp(26px, 3.4vw, 44px); line-height: 1.25; color: #fff; max-width: 22ch; }
