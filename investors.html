@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investor Info - Sats Capital, LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="index.html" aria-label="Sats Capital home"><img class="logo-nav" src="assets/logo.png" alt="SATSCAP - Digital Asset Strategies" /></a>
+    <div class="nav-links">
+      <a href="thesis.html">The Thesis</a>
+      <a href="investors.html" class="current">Investor Info</a>
+      <a href="index.html#contact" class="nav-cta">Request Access</a>
+    </div>
+  </nav>
+
+  <section class="wrap" style="padding:110px 40px;">
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <span class="eyebrow">About Sats Capital</span>
+        <h2 class="display">Crypto Native.<br/>Future Focused.</h2>
+        <p>In the crypto markets since 2013 - firsthand experience through every high and low of the last 13 years. We launched Sats Capital in 2019 and went live with Fund I in February 2020, followed by Fund II in January 2024.</p>
+        <p>We invest with conviction, manage with discipline, and operate with the long-term perspective that separates serious participants from the noise. Both funds are <strong>actively managed, liquid vehicles</strong> built to keep pace with a rapidly evolving market.</p>
+        <p>Our view: the intersection of crypto networks and AI is one of the most mispriced opportunities in markets today - and we are positioned for it.</p>
+      </div>
+      <div class="offerings reveal">
+        <span class="eyebrow">Our Offerings</span>
+        <div class="fund">
+          <div class="name">Sats Fund I, LP</div>
+          <div class="desc">Flagship vehicle. Large to mid cap crypto, medium-term horizon, actively managed to balance aggressive upside with managed downside.</div>
+          <div class="terms">
+            <span>Minimum<b>$100,000</b></span>
+            <span>Mgmt / Perf<b>2% / 25%</b></span>
+            <span>Redemptions<b>Quarterly</b></span>
+          </div>
+        </div>
+        <div class="fund">
+          <div class="name">Sats Fund II, LP</div>
+          <div class="desc">Early-stage liquid investments in emerging crypto narratives - seeking volatility in search of outsized winners. High-risk, high-reward mandate.</div>
+          <div class="terms">
+            <span>Minimum<b>$50,000</b></span>
+            <span>Mgmt / Perf<b>0% / 25%</b></span>
+            <span>Redemptions<b>Annual</b></span>
+          </div>
+        </div>
+        <div class="fund">
+          <div class="name">Consulting Services</div>
+          <div class="desc">Strategic advisory for institutions, family offices, and operators navigating digital asset exposure, custody, and emerging-technology integration.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding:0 40px 110px;">
+    <div class="reveal">
+      <span class="eyebrow">Performance</span>
+      <h2 class="display" style="margin-bottom:40px;">Results</h2>
+
+      <!-- ===================================================================
+           PERFORMANCE MATRIX - SCAFFOLD, NOT YET LIVE
+           Fill in real figures, confirm net vs gross and the period
+           definitions, then delete these comment markers to publish.
+      ====================================================================
+      <table class="perf-table">
+        <thead>
+          <tr>
+            <th>Fund / Benchmark</th>
+            <th>YTD</th>
+            <th>Rolling 4-Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="fund">Sats Fund I, LP</td><td>--</td><td>--</td></tr>
+          <tr><td class="fund">Sats Fund II, LP</td><td>--</td><td>--</td></tr>
+          <tr><td>Bitcoin</td><td>--</td><td>--</td></tr>
+          <tr><td>Ethereum</td><td>--</td><td>--</td></tr>
+          <tr><td>Crypto ex-BTC/ETH</td><td>--</td><td>--</td></tr>
+          <tr><td>QQQ</td><td>--</td><td>--</td></tr>
+          <tr><td>Gold</td><td>--</td><td>--</td></tr>
+        </tbody>
+      </table>
+      <p class="perf-note">Returns are net of all fees. Period definitions, peer set construction and benchmark selection available on request. Past performance is not indicative of future results.</p>
+
+      <div class="chart-slot"></div>
+      =================================================================== -->
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap" style="padding:96px 40px;">
+      <div class="section-head reveal">
+        <span class="eyebrow">Investor Relations</span>
+        <h2 class="display">Request Information</h2>
+        <p class="lede">Interested in Sats Capital or our funds? Share a few details and our team will be in touch, or email us directly at <a href="mailto:info@satscap.com" style="color:var(--gold-deep);text-decoration:none;font-weight:600;border-bottom:1px solid var(--line);">info@satscap.com</a>.</p>
+      </div>
+      <form id="inquiryForm" action="https://formspree.io/f/mzdjelky" method="POST" class="reveal">
+        <div class="fg"><label for="firstName">First Name</label><input type="text" id="firstName" name="firstName" placeholder="John" required /></div>
+        <div class="fg"><label for="lastName">Last Name</label><input type="text" id="lastName" name="lastName" placeholder="Smith" required /></div>
+        <div class="fg"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="john@example.com" required /></div>
+        <div class="fg"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" required /></div>
+        <div class="fg full"><label for="notes">Notes <span class="opt">(optional)</span></label><textarea id="notes" name="notes" placeholder="A little about your background, investment goals, or any questions you have."></textarea></div>
+        <div class="submit-row">
+          <button type="submit">Submit Inquiry</button>
+          <p class="form-note">This form is for informational purposes only and does not constitute an offer to sell or a solicitation to buy any security. Fund interests are available exclusively to qualified investors.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <img class="logo-footer" src="assets/logo-light.png" alt="SATSCAP - Digital Asset Strategies" />
+    <p class="footer-email"><a href="mailto:info@satscap.com">info@satscap.com</a></p>
+    <p class="entities">Sats Capital, LLC&nbsp;&nbsp;|&nbsp;&nbsp;Managing Sats Fund I, LP &amp; Sats Fund II, LP</p>
+    <p class="tag">Crypto Native. Future Focused.</p>
+    <p class="disclaimer">This website is for informational purposes only and does not constitute an offer, solicitation, or recommendation to buy or sell any security or investment product. Investments in digital assets involve significant risk, including the possible loss of principal. Past performance is not indicative of future results. All fund interests are offered only to qualified investors pursuant to applicable securities laws.</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
