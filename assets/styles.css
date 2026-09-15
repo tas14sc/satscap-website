@@ -205,3 +205,12 @@ footer .disclaimer { max-width: 720px; margin: 22px auto 0; font-size: 11.5px; c
 /* dark thesis band - centered */
 .thesis .wrap { text-align: center; }
 .thesis .passage { text-wrap: pretty; }
+
+/* SERVICE PROVIDERS */
+.providers { margin-top: 34px; padding-top: 22px; border-top: 1px solid var(--line); }
+.providers .eyebrow { display: block; margin-bottom: 14px; }
+.providers dl { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 11px 28px; }
+.providers dl > div { padding-top: 9px; border-top: 1px solid var(--line); }
+.providers dt { font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 3px; }
+.providers dd { margin: 0; font-size: 13.5px; line-height: 1.3; font-weight: 700; color: var(--ink); }
+@media (max-width: 520px) { .providers dl { grid-template-columns: 1fr; } }

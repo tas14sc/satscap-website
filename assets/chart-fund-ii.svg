@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 580" width="100%" font-family="Open Sans, Helvetica, Arial, sans-serif">
 <rect width="1180" height="580" fill="#FBF9F4"/>
 <text x="70" y="30" font-size="13" font-weight="700" letter-spacing="2.4" fill="#9A7C2E">FUND II PERFORMANCE</text>
-<text x="70" y="56" font-size="16" fill="#46566A">Growth of $100 invested January 1, 2024 - quarter-end values, through September 2026</text>
+<text x="70" y="56" font-size="16" fill="#46566A">Growth of $100 invested January 1, 2024 - through August 31, 2026</text>
 <line x1="70" y1="522.0" x2="965" y2="522.0" stroke="#E6DECF" stroke-width="1"/>
 <text x="60" y="526.0" font-size="12" fill="#8A95A2" text-anchor="end">$0</text>
 <line x1="70" y1="432.4" x2="965" y2="432.4" stroke="#E6DECF" stroke-width="1"/>
@@ -22,13 +22,13 @@
 <text x="802.3" y="552" font-size="12.5" fill="#8A95A2" text-anchor="middle">2026</text>
 <line x1="70" y1="342.8" x2="965" y2="342.8" stroke="#8A95A2" stroke-width="1" stroke-dasharray="4 4"/>
 <polyline points="70.0,342.8 151.4,327.7 232.7,312.3 314.1,308.4 395.5,298.3 476.8,316.8 558.2,280.6 639.5,259.3 720.9,253.2 802.3,269.4 883.6,199.9 965.0,208.7" fill="none" stroke="#4A7C59" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
-<polyline points="70.0,342.8 151.4,235.5 232.7,252.4 314.1,317.5 395.5,260.2 476.8,378.8 558.2,326.7 639.5,196.4 720.9,289.0 802.3,356.7 883.6,398.7 965.0,328.8" fill="none" stroke="#5F7BA6" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
+<polyline points="70.0,342.8 151.4,235.5 232.7,252.4 314.1,317.5 395.5,260.2 476.8,378.8 558.2,326.7 639.5,196.4 720.9,289.0 802.3,356.7 883.6,398.7 965.0,328.2" fill="none" stroke="#5F7BA6" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
 <polyline points="70.0,342.8 151.4,235.5 232.7,315.0 314.1,316.2 395.5,248.2 476.8,338.9 558.2,322.4 639.5,262.9 720.9,351.8 802.3,391.6 883.6,407.1 965.0,378.1" fill="none" stroke="#2F6F6B" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
 <polyline points="70.0,342.8 151.4,213.7 232.7,345.8 314.1,356.4 395.5,317.7 476.8,422.6 558.2,423.1 639.5,404.9 720.9,447.9 802.3,463.2 883.6,457.9 965.0,449.8" fill="none" stroke="#B4534E" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
 <polyline points="70.0,342.8 151.4,261.5 232.7,298.8 314.1,331.7 395.5,225.1 476.8,350.8 558.2,264.3 639.5,212.1 720.9,332.8 802.3,318.2 883.6,237.6 965.0,116.4" fill="none" stroke="#CAA84B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
 <text x="977" y="120.4" font-size="12.5" font-weight="700" fill="#CAA84B">$226  Fund II</text>
 <text x="977" y="212.7" font-size="12.5" font-weight="600" fill="#4A7C59">$175  QQQ</text>
-<text x="977" y="332.8" font-size="12.5" font-weight="600" fill="#5F7BA6">$108  Ethereum</text>
+<text x="977" y="332.2" font-size="12.5" font-weight="600" fill="#5F7BA6">$108  Ethereum</text>
 <text x="977" y="382.1" font-size="12.5" font-weight="600" fill="#2F6F6B">$80  S&amp;P Crypto Largecap</text>
 <text x="977" y="453.8" font-size="12.5" font-weight="600" fill="#B4534E">$40  Altcoin Basket</text>
 </svg>
